@@ -70,6 +70,7 @@ docker compose logs -f
     PATCH /videos/{id}/status — Обновить статус видео.
 
 📂 Структура проекта
+```plaintext
 .
 ├── api/                # Эндпоинты (Routers)
 ├── db/                 # Конфигурация БД и ORM модели
@@ -82,6 +83,7 @@ docker compose logs -f
 ├── main.py             # Точка входа приложения
 ├── pyproject.toml      # Зависимости (uv)
 └── uv.lock             # Lock-файл зависимостей
+```
 
 ⚙️ Переменные окружения
 
