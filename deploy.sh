@@ -13,9 +13,9 @@ fi
 
 echo "🚀 Собираем и запускаем контейнеры..."
 
-docker-compose up --build -d --remove-orphans
+docker compose up --build -d --remove-orphans
 
 echo "📜 Приложение запущено! Выводим логи (Ctrl+C для выхода)..."
 echo "---------------------------------------------------------"
 
-docker-compose logs -f
+docker compose logs -f
